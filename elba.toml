@@ -1,0 +1,35 @@
+[package]
+name = "HuwCampbell/idris-lens"
+version = "0.1.0"
+authors = []
+
+[dependencies]
+"japesinator/Idris-Bifunctors" = { git = "https://github.com/andrevidela/Idris-Bifunctors" }
+
+[targets.lib]
+path = "."
+name = "lens"
+mods = [ "Control.Lens"
+       , "Control.Lens.At"
+       , "Control.Lens.Const"
+       , "Control.Lens.Examples"
+       , "Control.Lens.First"
+       , "Control.Lens.Getter"
+       , "Control.Lens.Iso"
+       , "Control.Lens.Lens"
+       , "Control.Lens.Market"
+       , "Control.Lens.Maths"
+       , "Control.Lens.Prism"
+       , "Control.Lens.Review"
+       , "Control.Lens.Setter"
+       , "Control.Lens.Tuple"
+       , "Control.Lens.Types"
+       , "Data.Contravariant"
+       , "Data.Curried"
+       , "Data.Profunctor"
+       , "Data.Profunctor.Choice"
+       , "Data.Profunctor.Class"
+       , "Data.Tagged"
+       , "Data.Yoneda"
+       ]
+
