@@ -8,7 +8,6 @@ authors = []
 
 [targets.lib]
 path = "."
-name = "lens"
 mods = [ "Control.Lens"
        , "Control.Lens.At"
        , "Control.Lens.Const"
